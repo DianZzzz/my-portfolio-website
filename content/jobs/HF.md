@@ -7,4 +7,4 @@ range: "July 2019 - July 2022"
 url: ""
 ---
 
-- Supported the development of a promotion/pricing tool for a national drugstore chain
+- Developed proprietary screening methodologies and performed deep dive due diligence on publicly traded companies in North America, Europe and Asia Pacific.
