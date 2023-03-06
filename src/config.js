@@ -3,7 +3,7 @@ module.exports = {
   siteTitle: "Dian Zhao | Data Scientist | Equity Analyst | Consultant",
   siteDescription: "Dian Zhao is a data scientist at BCG.",
   siteKeywords: "dian zhao, dian, dianzzzz, data scientist, consultant, ",
-  siteUrl: "",
+  siteUrl: "https://dianzzzz.netlify.app",
   siteLanguage: "en_US",
 
   socialMedia: [
