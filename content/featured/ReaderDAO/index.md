@@ -5,10 +5,9 @@ cover: "./readerdao.png"
 github: "https://github.com/DianZzzz/ReaderDAO"
 external: ""
 tech:
-  - React
-  - Javascript
+  - React/Javascript
   - ThirdWeb API
-  - Quiknode / Alchemy
+  - Quiknode/Alchemy
 showInProjects: true
 ---
 
