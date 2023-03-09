@@ -1,5 +1,5 @@
 ---
-date: "2023-03-05"
+date: "1"
 title: "ChatTBH Web App"
 cover: "./chattbh.png"
 github: "https://github.com/DianZzzz/ChatTBH"

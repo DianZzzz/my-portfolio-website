@@ -1,5 +1,5 @@
 ---
-date: "2023-03-05"
+date: "2"
 title: "Equity Research Analyst"
 company: "Hedge Fund"
 location: "Austin, TX"

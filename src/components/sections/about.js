@@ -19,7 +19,7 @@ const StyledAboutSection = styled.section`
 const StyledText = styled.div`
   ul.skills-list {
     display: grid;
-    grid-template-columns: repeat(1, minmax(140px, 200px));
+    grid-template-columns: repeat(2, minmax(140px, 200px));
     grid-gap: 0 10px;
     padding: 0;
     margin: 20px 0 0 0;
@@ -113,37 +113,30 @@ const About = () => {
   }, []);
 
   const skills = [
-    "Python, SQL, Javascript",
-    "Scikit-learn, PyTorch, Tensorflow",
-    "React, Django, Node.js",
-    "Azure, AWS, GCP",
+    "Python/PySpark",
+    "SQL",
+    "React",
+    "Django",
+    "Node.js",
+    "Solidity",
   ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
-      <h2 className="numbered-heading">
-        My Story as a Cardi B Rap Written by GPT3
-      </h2>
+      <h2 className="numbered-heading">About Me</h2>
 
       <div className="inner">
         <StyledText>
           <div>
+            <p>I am a full stack data scientist based in Houston, TX.</p>
+
             <p>
-              Started my life in China, filled up with possibilities\ Loved to
-              ride my tricycle, living carefree\ Headed to Singapore for more
-              education\ Got the grades to secure a future of distinction From
-              Singapore went to the US to gain some more cred\ Had to work my
-              way through college, there was no backlog of dough\ Became a hedge
-              fund analyst, made buckets of dough\ But I gotta move up and find
-              something new, had to be bold Leave the fund and found me a new
-              profession\ Started on the path of becoming an AI obsessor\
-              Learned to master data science, nothing left to guess\ Living off
-              of Pepper's love and double shot espresso Why they be hatin' on
-              me?\ I'm the girl who loves to roam free\ I'm the one with a
-              pedigree\ No one's gonna tell me to give up what I'm building\
-              Cause everyday I'm grinding, and my knowledge just keep on
-              expanding\ Now repeat after me\
+              When I am not crunching numbers or making slides, I enjoy creating
+              things that live on the internet, whether it be a webiste, an
+              application or digital art.
             </p>
+
+            <p>Here are a few technologies I've been working with recently.</p>
           </div>
 
           <ul className="skills-list">
@@ -155,7 +148,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../../images/me.jpg"
               width={500}
               quality={95}
               formats={["AUTO", "WEBP", "AVIF"]}
