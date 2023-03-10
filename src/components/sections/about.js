@@ -146,12 +146,8 @@ const About = () => {
 
         <StyledPic>
           <div className="wrapper">
-            <StaticImage
-              className="img"
-              src="../../../images/me.jpg"
-              width={500}
-              quality={95}
-              formats={["AUTO", "WEBP", "AVIF"]}
+            <img
+              src="https://media.licdn.com/dms/image/C5603AQFidhUFZnmLjw/profile-displayphoto-shrink_800_800/0/1658000021243?e=1683763200&v=beta&t=4mzKhYuKCH_K3SLB5hgwxg_YyhtDxt6792w29LNyxes"
               alt="Headshot"
             />
           </div>
