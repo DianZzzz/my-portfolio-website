@@ -11,7 +11,7 @@
   </a>
 </p>
 
-![demo](https://raw.githubusercontent.com/bchiang7/v4/main/src/images/demo.png)
+![demo](https://github.com/DianZzzz/my-portfolio-website/blob/master/src/images/demo.png)
 
 
 ### TL;DR
